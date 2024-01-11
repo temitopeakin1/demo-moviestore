@@ -29,7 +29,7 @@ const SearchField = ({ updateResults }) => {
   const handleClick = () => {
     const apiKey = "1813ba2c";
 
-    const url = `http://www.omdbapi.com/?apikey=${apiKey}&s=${value}`;
+    const url = `https://www.omdbapi.com/?apikey=${apiKey}&s=${value}`;
     console.log(url);
 
     // console.log(e.target.value);
@@ -51,7 +51,7 @@ const SearchField = ({ updateResults }) => {
           type="text"
           name="search"
           value={value}
-          placeholder="Search movies..."
+          placeholder="Type Movie Name..."
           onChange={handleSearch}
         />
         <i className="fas fa-search"></i>
