@@ -1,0 +1,20 @@
+.display-results-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 4.5%;
+  grid-column-gap: 4.5%;
+  /* display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  font-family: "Roboto Sans", sans-serif;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  /* border: 3px solid red; */
+}
+
+@media (max-width: 1200px) {
+  .display-result {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

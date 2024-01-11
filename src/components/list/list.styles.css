@@ -1,0 +1,61 @@
+.list-img {
+  height: 250px;
+  width: 100%;
+  /* border: 3px solid green; */
+  background-size: cover;
+  background-color: hsl(0, 95%, 8%);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.list {
+  background: hsl(0, 0%, 100%);
+  height: 406px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+/* .poster-img,
+.poster-details {
+  
+} */
+.list-details {
+  padding: 10px;
+  background-color: hsl(0, 0%, 100%);
+}
+.title {
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 7px;
+  font-weight: 600;
+  text-align: center;
+}
+.year {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.year span {
+  font-weight: 600;
+}
+.imdb {
+  margin-bottom: 10px;
+}
+.nominate {
+  position: absolute;
+  left: 2.5%;
+  bottom: 5px;
+  width: 95%;
+
+  height: 35px;
+  background: hsl(209, 23%, 22%);
+  color: #fff;
+  /* outline: none; */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+
+  /* display: none; */
+}

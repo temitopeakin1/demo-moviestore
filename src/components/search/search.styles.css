@@ -1,0 +1,49 @@
+.search-field {
+  padding: 150px 0 60px 0;
+  width: 85%;
+  margin: auto;
+}
+.input-field {
+  position: relative;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red;
+}
+.input-field input {
+  /* border: none;
+  outline: 1px solid hsl(209, 23%, 22%); */
+  width: 500px;
+  height: 40px;
+  padding-left: 60px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+}
+.input-field input::placeholder {
+  font-family: "Nunito Sans", sans-serif;
+  color: hsl(209, 23%, 22%);
+  font-size: 16px;
+}
+
+.input-field button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 40px;
+  border: none;
+  background: hsl(209, 23%, 22%);
+  color: #fff;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.fa-search {
+  color: hsl(209, 23%, 22%);
+  position: absolute;
+  top: 30%;
+  left: 20px;
+}
